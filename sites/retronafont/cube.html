@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ルービックキューブ｜レトロなフォント｜昭和のあそび</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="font-page--tile">
+  <!-- ローディング -->
+  <div id="loader">
+    <div class="loader">
+      <img src="img/logo.webp" alt="">
+      <div class="load-bar">
+        <span></span>
+      </div>
+      <p id="count">00</p>
+    </div>
+  </div>
+  <header id="top">
+    <a class="logo" href="index.html">
+      <img src="img/logo.webp" alt="レトロなフォント 昭和のあそび">
+    </a>
+    <nav id="nav">
+      <a href="index.html">ホーム</a>
+      <a href="index.html#about">コンセプト</a>
+      <div class="nav-font">
+        <div>
+          <a href="index.html#fonts">フォント</a>
+          <button type="button" aria-label="フォントの一覧を開く"></button>
+        </div>
+        <ul>
+          <li><a href="cube.html">ルービックキューブ</a></li>
+          <li><a href="rainbow.html">レインボースプリング</a></li>
+          <li><a href="slime.html">スライム</a></li>
+          <li><a href="puzzle.html">ジグソーパズル</a></li>
+        </ul>
+      </div>
+      <a href="index.html#motifs">その他</a>
+    </nav>
+    <button class="menu" type="button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+  <main>
+    <section class="font-page-hero">
+      <div class="font-page-photo">
+        <img src="img/motif/cube.webp" alt="ルービックキューブ">
+      </div>
+      <div class="font-page-heading">
+        <a class="font-page-back" href="index.html#fonts">&lt;&lt; フォント一覧に戻る</a>
+        <h1 class="font-page-title-image"><img src="img/only_motif/tile_page.webp" alt="タイルフォント"><small>（ルービックキューブ）</small></h1>
+      </div>
+    </section>
+
+    <section class="font-page-story">
+      <div>
+        <h2>概要</h2>
+        <p>昭和55年頃に大流行した。一辺が5.5cm程度の立方体で、各面は異なる6色で構成されている。基本の形は各面、3×3の9マスに分割されている。</p>
+      </div>
+      <div>
+        <h2>フォントについて</h2>
+        <p>ルービックキューブは8×8のグリッドに対して四角形をタイル状に配置して制作しました。ひとつひとつのマス目を積み重ねることで、立方体そのものが持つ規則正しい佇まいを文字に落とし込んでいます。</p>
+      </div>
+    </section>
+
+    <section class="font-glyph-list" aria-labelledby="glyph-list-title-cube">
+      <p class="number">FONT LIST</p>
+      <h2 id="glyph-list-title-cube">収録文字一覧</h2>
+      <div class="font-glyph-list-image">
+        <img src="img/font_lists/tile_list.webp" alt="タイルフォントの収録文字一覧">
+      </div>
+    </section>
+
+    <section class="font-try">
+      <p class="number">TRY IT</p>
+      <h2>タイルフォントで試してみる</h2>
+      <p class="font-try-intro">ひらがなを入力すると、カタカナに変換してプレビューします。<br><small>※ 日本語入力の変換途中はそのまま入力できます。変換確定後、ひらがな・カタカナ以外は除外されます。</small><br><small>※ タイルフォントには濁点・半濁点付きの文字は収録されていません。</small></p>
+      <p class="font-try-label">ここに入力</p>
+      <input type="text" id="fontInput" class="font-try-input" placeholder="ひらがなを入力してください（例：れとろなふぉんと）">
+      <p id="fontWarning" class="font-try-warning"></p>
+      <p id="fontPreview" class="font-try-preview"><span class="font-try-preview-text">レトロナフォント</span></p>
+      <div class="font-download">
+        <a class="font-download-btn" href="#" onclick="return false;">
+          <span class="icon">⬇</span>
+          <span>フォントをダウンロード</span>
+        </a>
+        <p class="font-download-note">※ フォントデータは準備中です</p>
+      </div>
+    </section>
+
+    <section class="font-page-links">
+      <h2>ほかのフォントも見る</h2>
+      <div class="font-page-links-grid">
+          <a href="rainbow.html">
+            <img src="img/motif/rainbow.webp" alt="レインボースプリング">
+            <span>レインボースプリング</span>
+          </a>
+          <a href="slime.html">
+            <img src="img/motif/slime.webp" alt="スライム">
+            <span>スライム</span>
+          </a>
+          <a href="puzzle.html">
+            <img src="img/motif/puzzle.webp" alt="ジグソーパズル">
+            <span>ジグソーパズル</span>
+          </a>
+      </div>
+    </section>
+  </main>
+  <!-- スクロール追随メニューボタン（タブレット・スマホ幅） -->
+  <button type="button" class="float-menu" aria-label="メニューを開く">
+    <span></span><span></span><span></span>
+  </button>
+  <!-- ページトップ -->
+  <a class="page-top" href="#top">
+    <span><img src="img/tophe.webp" alt="↑"></span>
+    <small>PAGE TOP</small>
+  </a>
+  <!-- フッター -->
+  <footer>
+    <p>© 2022 RETRONAFONT</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

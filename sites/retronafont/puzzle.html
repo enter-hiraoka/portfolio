@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ジグソーパズル｜レトロなフォント｜昭和のあそび</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="font-page--puzzle">
+  <!-- ローディング -->
+  <div id="loader">
+    <div class="loader">
+      <img src="img/logo.webp" alt="">
+      <div class="load-bar">
+        <span></span>
+      </div>
+      <p id="count">00</p>
+    </div>
+  </div>
+  <header id="top">
+    <a class="logo" href="index.html">
+      <img src="img/logo.webp" alt="レトロなフォント 昭和のあそび">
+    </a>
+    <nav id="nav">
+      <a href="index.html">ホーム</a>
+      <a href="index.html#about">コンセプト</a>
+      <div class="nav-font">
+        <div>
+          <a href="index.html#fonts">フォント</a>
+          <button type="button" aria-label="フォントの一覧を開く"></button>
+        </div>
+        <ul>
+          <li><a href="cube.html">ルービックキューブ</a></li>
+          <li><a href="rainbow.html">レインボースプリング</a></li>
+          <li><a href="slime.html">スライム</a></li>
+          <li><a href="puzzle.html">ジグソーパズル</a></li>
+        </ul>
+      </div>
+      <a href="index.html#motifs">その他</a>
+    </nav>
+    <button class="menu" type="button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+  <main>
+    <section class="font-page-hero">
+      <div class="font-page-photo">
+        <img src="img/motif/puzzle.webp" alt="ジグソーパズル">
+      </div>
+      <div class="font-page-heading">
+        <a class="font-page-back" href="index.html#fonts">&lt;&lt; フォント一覧に戻る</a>
+        <h1 class="font-page-title-image"><img src="img/only_motif/pazzle_page.webp" alt="パズルフォント"><small>（ジグソーパズル）</small></h1>
+      </div>
+    </section>
+
+    <section class="font-page-story">
+      <div>
+        <h2>概要</h2>
+        <p>昭和49年頃、「モナ・リザ展」が社会的流行となった影響で、ジグソーパズルが流行した。前年頃から輸入されていた「モナ・リザ」のジグソーパズルも売れ、ジグソーパズルの日本での普及の先駆者となった。</p>
+      </div>
+      <div>
+        <h2>フォントについて</h2>
+        <p>ジグソーパズルはパズルの凸部分と凹部分をモチーフにピースっぽく制作しました。文字の一部に凹凸を持たせることで、隣り合うピース同士が組み合わさっていくような佇まいを目指しています。</p>
+      </div>
+    </section>
+
+    <section class="font-glyph-list" aria-labelledby="glyph-list-title-puzzle">
+      <p class="number">FONT LIST</p>
+      <h2 id="glyph-list-title-puzzle">収録文字一覧</h2>
+      <div class="font-glyph-list-image">
+        <img src="img/font_lists/puzzle_list.webp" alt="パズルフォントの収録文字一覧">
+      </div>
+    </section>
+
+    <section class="font-try">
+      <p class="number">TRY IT</p>
+      <h2>パズルフォントで試してみる</h2>
+      <p class="font-try-intro">ひらがなを入力すると、カタカナに変換してプレビューします。<br><small>※ 日本語入力の変換途中はそのまま入力できます。変換確定後、ひらがな・カタカナ以外は除外されます。</small><br><small>※ パズルフォントの濁点・半濁点付き文字は「パ」「ズ」のみ収録されています。</small></p>
+      <p class="font-try-label">ここに入力</p>
+      <input type="text" id="fontInput" class="font-try-input" placeholder="ひらがなを入力してください（例：れとろなふぉんと）">
+      <p id="fontWarning" class="font-try-warning"></p>
+      <p id="fontPreview" class="font-try-preview"><span class="font-try-preview-text">レトロナフォント</span></p>
+      <div class="font-download">
+        <a class="font-download-btn" href="#" onclick="return false;">
+          <span class="icon">⬇</span>
+          <span>フォントをダウンロード</span>
+        </a>
+        <p class="font-download-note">※ フォントデータは準備中です</p>
+      </div>
+    </section>
+
+    <section class="font-page-links">
+      <h2>ほかのフォントも見る</h2>
+      <div class="font-page-links-grid">
+          <a href="cube.html">
+            <img src="img/motif/cube.webp" alt="ルービックキューブ">
+            <span>ルービックキューブ</span>
+          </a>
+          <a href="rainbow.html">
+            <img src="img/motif/rainbow.webp" alt="レインボースプリング">
+            <span>レインボースプリング</span>
+          </a>
+          <a href="slime.html">
+            <img src="img/motif/slime.webp" alt="スライム">
+            <span>スライム</span>
+          </a>
+      </div>
+    </section>
+  </main>
+  <!-- スクロール追随メニューボタン（タブレット・スマホ幅） -->
+  <button type="button" class="float-menu" aria-label="メニューを開く">
+    <span></span><span></span><span></span>
+  </button>
+  <!-- ページトップ -->
+  <a class="page-top" href="#top">
+    <span><img src="img/tophe.webp" alt="↑"></span>
+    <small>PAGE TOP</small>
+  </a>
+  <!-- フッター -->
+  <footer>
+    <p>© 2022 RETRONAFONT</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

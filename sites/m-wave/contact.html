@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CONTACT | M-WAVE</title>
+<meta name="description" content="M-WAVEへのお問い合わせはこちらから。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Murecho:wght@400;500;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Kiwi+Maru&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo" aria-label="M-WAVE HOME"><img src="img/header-logo.webp" alt="M-WAVE" class="logo-combined"></a>
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="contact.html" aria-current="page">CONTACT</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main>
+  <section class="page-intro" data-snap-target=".page-intro-inner" data-snap-top="72">
+    <div class="page-intro-backdrop" aria-hidden="true"></div>
+    <div class="container page-intro-inner reveal">
+      
+      <h1>お問い合わせ</h1>
+      <p>製品についてのご質問、お取り扱いのご相談など、お気軽にお問い合わせください。</p>
+    </div>
+  </section>
+  <section class="section" data-snap-target=".contact-layout" data-snap-top="86">
+    <div class="container contact-layout">
+      <div class="contact-info reveal">
+        <div class="contact-info-item"><strong>製品に関するご質問</strong><span>仕様・対応環境・お取り扱いについて</span></div>
+        <div class="contact-info-item"><strong>受付時間</strong><span>平日 10:00〜18:00</span></div>
+        <div class="contact-info-item"><strong>ご返信の目安</strong><span>2〜3営業日以内に順次ご連絡いたします。</span></div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <div class="form-success" id="form-success" role="status"><span>✓</span><span>お問い合わせを受け付けました。ご入力ありがとうございました。</span></div>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group" id="group-name"><label for="name">お名前<span class="required">必須</span></label><input type="text" id="name" name="name" placeholder="山田 太郎"><p class="form-error">お名前を入力してください。</p></div>
+            <div class="form-group" id="group-email"><label for="email">メールアドレス<span class="required">必須</span></label><input type="email" id="email" name="email" placeholder="example@mail.com"><p class="form-error">正しいメールアドレスを入力してください。</p></div>
+          </div>
+          <div class="form-group" id="group-subject"><label for="subject">お問い合わせ種別<span class="required">必須</span></label><select id="subject" name="subject"><option value="" selected disabled hidden>選択してください</option><option value="product">製品について</option><option value="stock">在庫・お取り扱いについて</option><option value="press">取材・掲載について</option><option value="other">その他</option></select><p class="form-error">お問い合わせ種別を選択してください。</p></div>
+          <div class="form-group" id="group-message"><label for="message">お問い合わせ内容<span class="required">必須</span></label><textarea id="message" name="message" placeholder="お問い合わせ内容をご記入ください"></textarea><p class="form-error">お問い合わせ内容をご記入ください。</p></div>
+          <div class="form-group checkbox-group" id="group-agree"><input type="checkbox" id="agree" name="agree"><label for="agree">プライバシーポリシーの内容を確認し、同意します。</label></div>
+          <p class="form-error" id="agree-error" style="margin-top:-14px; margin-bottom: 24px;">プライバシーポリシーへの同意が必要です。</p>
+          <button type="submit" class="btn btn-primary">この内容で送信する</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo footer-logo" aria-label="M-WAVE HOME"><img src="img/logoue.svg" alt="M-WAVE" class="logo-combined"></a>
+      <p>静けさと没入感を両立する、クリエイターとゲーマーのためのガジェットブランドです。</p>
+    </div>
+    <div class="footer-col">
+      <h4>MENU</h4>
+      <ul>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>PRODUCTS</h4>
+      <ul>
+        <li><a href="products.html#headset">M-Wear</a></li>
+        <li><a href="products.html#keyboard">M-Write</a></li>
+        <li><a href="products.html#mouse">M-Wheel</a></li>
+        <li><a href="products.html#stand">M-Work</a></li>
+        <li><a href="products.html#earbuds">M-Whisper</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>INFO</h4>
+      <ul>
+        <li><a href="news.html">お知らせ</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; 2026 M-WAVE. All rights reserved.</span>
+  </div>
+</footer>
+<button class="back-to-top" id="back-to-top" aria-label="ページトップへ戻る"><img src="img/top.webp" alt="" class="back-to-top-icon"></button><script src="js/main.js"></script></body></html>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="260" viewBox="0 0 340 260">
+      <defs>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#8b6a4f" flood-opacity=".25"/>
+        </filter>
+      </defs>
+      <g filter="url(#shadow)">
+        
+    <path d="M28,22
+             C65,12 98,18 140,25
+             C176,31 220,22 258,34
+             C298,48 308,76 314,110
+             C320,144 319,173 300,198
+             C278,226 243,235 212,240
+             C174,247 136,250 103,244
+             C73,238 41,220 27,193
+             C11,163 10,128 14,96
+             C18,66 7,38 28,22Z"
+          fill="#efe2cd" stroke="#d4b999" stroke-width="2"/>
+    
+      </g>
+      
+        <g transform="translate(92,62)">
+          <polygon points="0,28 58,0 116,28 58,56" fill="#dbc3a4" stroke="#4b3425" stroke-width="3"/>
+          <polygon points="0,28 0,102 58,130 58,56" fill="#d1b493" stroke="#4b3425" stroke-width="3"/>
+          <polygon points="58,56 58,130 116,102 116,28" fill="#c8a886" stroke="#4b3425" stroke-width="3"/>
+          <g stroke="#4b3425" stroke-width="2">
+            <line x1="19" y1="19" x2="77" y2="47"/>
+            <line x1="39" y1="10" x2="97" y2="38"/>
+            <line x1="78" y1="10" x2="20" y2="38"/>
+            <line x1="97" y1="19" x2="39" y2="47"/>
+            <line x1="19" y1="47" x2="19" y2="121"/>
+            <line x1="39" y1="38" x2="39" y2="112"/>
+            <line x1="78" y1="38" x2="78" y2="112"/>
+            <line x1="97" y1="47" x2="97" y2="121"/>
+            <line x1="58" y1="56" x2="58" y2="130"/>
+            <line x1="0" y1="53" x2="58" y2="81"/>
+            <line x1="58" y1="81" x2="116" y2="53"/>
+            <line x1="0" y1="78" x2="58" y2="106"/>
+            <line x1="58" y1="106" x2="116" y2="78"/>
+          </g>
+        </g>
+        
+    </svg>

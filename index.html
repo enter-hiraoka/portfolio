@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web Designer Portfolio">
+  <title>HIRAOKA PORTFOLIO — Web / Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#">HIRAOKA PORTFOLIO<span>.</span></a>
+    <nav class="site-nav" aria-label="メインナビゲーション">
+      <a href="#works"><span class="nav-en">WORKS</span><span class="nav-ja">制作実績</span></a>
+      <a href="#about"><span class="nav-en">PROFILE</span><span class="nav-ja">自己紹介</span></a>
+      <a href="#contact"><span class="nav-en">CONTACT</span><span class="nav-ja">お問い合わせ</span></a>
+    </nav>
+    <button class="menu" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#works">WORKS<span>制作実績</span></a>
+    <a href="#about">PROFILE<span>自己紹介</span></a>
+    <a href="#contact">CONTACT<span>お問い合わせ</span></a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-carousel">
+        <button type="button" class="hero-nav hero-prev" aria-label="前のスライド"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+        <div class="hero-stage" aria-label="制作実績プレビュー">
+          <a class="hero-slide slide-active" href="sites/retronafont/index.html" target="_blank" rel="noopener" aria-label="オリジナルカタカナフォント制作実績を見る">
+            <div class="hero-slide-art">
+              <div class="hero-shot hero-shot-font"></div>
+              <span class="hero-caption">オリジナルフォント紹介サイト</span>
+              <span class="hero-view">サイトを見る <span>↗</span></span>
+            </div>
+          </a>
+          <a class="hero-slide" href="sites/m-wave/index.html" target="_blank" rel="noopener" aria-label="M-WAVE制作実績を見る">
+            <div class="hero-slide-art">
+              <div class="hero-shot hero-shot-mwave"></div>
+              <span class="hero-caption">ガジェットブランドサイト</span>
+              <span class="hero-view">サイトを見る <span>↗</span></span>
+            </div>
+          </a>
+          <a class="hero-slide" href="sites/hiraoka/index.html" target="_blank" rel="noopener" aria-label="平岡建築制作実績を見る">
+            <div class="hero-slide-art">
+              <div class="hero-shot hero-shot-house"></div>
+              <span class="hero-caption">建築会社コーポレートサイト</span>
+              <span class="hero-view">サイトを見る <span>↗</span></span>
+            </div>
+          </a>
+
+        </div>
+        <button type="button" class="hero-nav hero-next" aria-label="次のスライド"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+      </div>
+    </section>
+
+    <section id="works" class="works">
+      <div class="section-head">
+        
+        <h2>制作実績</h2>
+      </div>
+
+      <article class="work">
+        <a class="work-visual" href="sites/retronafont/index.html" target="_blank" rel="noopener" aria-label="オリジナルカタカナフォント制作実績を見る">
+          <div class="work-shot work-shot-font"></div>
+          <div class="visual-label">RETRO FONT</div>
+          <span class="work-view">サイトを見る <span>↗</span></span>
+        </a>
+        <div class="work-info">
+          <h3>オリジナル<br>カタカナ<br>フォント</h3>
+          <p class="category">タイポグラフィ / グラフィック / Webデザイン</p>
+          <p class="description">昭和頃に親しまれた遊びやおもちゃをモチーフにした<br>オリジナルフォントの紹介サイト。<br>フォントの個性をWeb上で体験できる構成にした。</p>
+          <div class="buttons">
+            <a class="outline" href="sites/retronafont/index.html" target="_blank" rel="noopener">サイトを見る <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work work-dark">
+        <a class="work-visual" href="sites/m-wave/index.html" target="_blank" rel="noopener" aria-label="M-WAVE制作実績を見る">
+          <div class="work-shot work-shot-mwave"></div>
+          <div class="visual-label">M-WAVE</div>
+          <span class="work-view">サイトを見る <span>↗</span></span>
+        </a>
+        <div class="work-info">
+          <h3>M-WAVE</h3>
+          <p class="category">ブランディング / Webデザイン / コーディング</p>
+          <p class="description">クリエイター・ゲーマーをターゲットにした<br>オリジナルガジェットブランドのWebサイト。<br>ブランドコンセプトから製品紹介、インタラクションまで一貫して設計。</p>
+          <div class="buttons">
+            <a class="outline" href="sites/m-wave/index.html" target="_blank" rel="noopener">サイトを見る <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work">
+        <a class="work-visual" href="sites/hiraoka/index.html" target="_blank" rel="noopener" aria-label="平岡建築制作実績を見る">
+          <div class="work-shot work-shot-house"></div>
+          <div class="visual-label">HIRAOKA ARCHITECT</div>
+          <span class="work-view">サイトを見る <span>↗</span></span>
+        </a>
+        <div class="work-info">
+          <h3>平岡建築</h3>
+          <p class="category">コーポレートサイト / Webデザイン / コーディング</p>
+          <p class="description">地域の建築会社を想定したコーポレートサイト。<br>施工事例や会社情報を整理し、<br>安心感と見やすさを両立した情報設計を目指した。</p>
+          <div class="buttons">
+            <a class="outline" href="sites/hiraoka/index.html" target="_blank" rel="noopener">サイトを見る <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="work work-dark">
+        <button type="button" class="work-visual" data-video-trigger aria-label="「渓流デート」の動画を見る">
+          <div class="work-shot work-shot-keiryu"></div>
+          <div class="visual-label">KEIRYU DATE</div>
+          <span class="work-view">動画を見る <span>▶</span></span>
+        </button>
+        <div class="work-info">
+          <h3>渓流デート</h3>
+          <p class="category">映像編集 / AI動画制作 / ディレクション</p>
+          <p class="description">大学生の男女2人が夏の休日に渓流へ出かけ、水辺で楽しい時間を過ごした後、帰りの駅で男性が電車越しに女性に想いを伝えるが、恥ずかしさからその場を走り去ってしまう。女性が気づかぬまま電車が発車することで、青春らしい余韻を残しました。</p>
+          <p class="description">前半は明るく爽やかな夏の雰囲気を中心にし、後半ではカットを細かく切り替えて告白の緊張感や疾走感を演出しました。</p>
+          <p class="video-note">※権利の都合により、劇中の音楽は使用していません。</p>
+        </div>
+      </article>
+    </section>
+
+    <div class="video-modal" id="videoModal" aria-hidden="true">
+      <div class="video-modal-backdrop" data-modal-close></div>
+      <div class="video-modal-inner">
+        <button type="button" class="video-modal-close" aria-label="閉じる" data-modal-close>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="6" x2="18" y2="18"></line><line x1="18" y1="6" x2="6" y2="18"></line></svg>
+        </button>
+        <div class="video-modal-frame">
+          <video id="modalVideo" controls playsinline poster="assets/video/keiryudate_poster.jpg">
+            <source src="assets/video/keiryudate.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <section id="about" class="about">
+      <div class="about-inner">
+        <div class="section-head">
+          <h2>自己紹介</h2>
+        </div>
+        <div class="about-text">
+          <p>学生時代にビジュアルデザインを学び、ポスター・ロゴ・フォントなどの制作を経験。前職ではCADオペレーターとして正確な図面制作に携わりました。</p>
+          <p>現在はWEBデザインを学び、デザインだけでなく、実際に動くWebサイトとして形にすることを意識して制作しています。</p>
+          <dl>
+            <div><dt>TOOLS</dt><dd>Adobe Illustrator / Adobe Photoshop / Adobe Premiere Pro</dd></div>
+            <div><dt>WEB</dt><dd>HTML / CSS / JavaScript</dd></div>
+            <div><dt>OTHER</dt><dd>AutoCAD</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>CONTACT</h2>
+      <a class="contact-link" href="mailto:enter.20goh@gmail.com">enter.20goh@gmail.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 HIRAOKA PORTFOLIO</span>
+    <a href="#">BACK TO TOP ↑</a>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
