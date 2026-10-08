@@ -1,5 +1,5 @@
 function headerOffset(){
-  return window.matchMedia("(max-width:800px)").matches ? 84 : 104;
+  return window.matchMedia("(max-width:800px)").matches ? 84 + 20 : 0;
 }
 const links=document.querySelectorAll('a[href^="#"]');
 links.forEach(a=>a.addEventListener('click',e=>{
@@ -82,3 +82,12 @@ if(slides.length>1){
   prevBtn?.addEventListener("click",()=>goTo(current-1));
   nextBtn?.addEventListener("click",()=>goTo(current+1));
 }
+
+
+const careerToggle = document.querySelector(".career-toggle");
+const career = document.querySelector("#career");
+careerToggle?.addEventListener("click", () => {
+  const isOpen = careerToggle.getAttribute("aria-expanded") === "true";
+  careerToggle.setAttribute("aria-expanded", String(!isOpen));
+  career.hidden = isOpen;
+});
